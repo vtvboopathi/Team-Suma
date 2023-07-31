@@ -249,6 +249,6 @@ setInterval(updateTime, 1000)
 
 
 
-// window.onbeforeunload = function (e) {
-//   e.returnValue = '';
+window.onbeforeunload = function (e) {
+  e.returnValue = '';
 //   };
