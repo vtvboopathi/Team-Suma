@@ -107,7 +107,7 @@ nav .menu{
 }
 
 .center .title{
-  color: #fff;
+  color: black;
   font-size: 55px;
   font-weight: 600;
   text-transform: uppercase;
@@ -183,7 +183,7 @@ nav .menu{
   position: sticky;
   top: 10vh;
   left: 0;
-
+  box-shadow: 10px 0 5px rgba(0, 0, 0, 0.466);
 }
 
 
@@ -191,6 +191,8 @@ nav .menu{
   padding-top: 20px;
   font-size: 1.5rem;
   padding: 20px;
+  width: 100%;
+  cursor: pointer;
 }
 
 .left a{
@@ -215,10 +217,12 @@ nav .menu{
   /* justify-content: center; */
   text-align: center;
   flex-direction: column;
-  height: 80vh;
+  min-height: 80vh;
   width: 80%;
   margin-top: 40px;
   background: #1b1b1b;
+  border-radius: 10px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.432);
 }
 
 .cont h1{
@@ -231,6 +235,7 @@ nav .menu{
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  /* border-radius: 10px; */
 }
 
 span{
@@ -239,7 +244,7 @@ span{
 
 .one{
   text-align: center;
-  width: 50%;
+  width: 100%;
   height: 100%;
   display: flex;
   align-items: center;
@@ -292,7 +297,7 @@ span{
 }
 
 h2{
-  margin: 8px;
+  margin: 4px;
 }
 
 .id{
@@ -317,10 +322,11 @@ h2{
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  min-width: 90%;
 }
 
 .white{
-  color: #fff;
+  color: black;
 }
 
 .width{
@@ -329,6 +335,8 @@ h2{
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+  flex-direction: column;
+  color: #fff;
 }
 
 .centre{
@@ -341,6 +349,8 @@ h2{
 
 .commentsSec{
   margin-top: 30px;
+  /* display: flex;
+  flex-direction: column; */
 }
 
 .ffff{
@@ -353,4 +363,12 @@ h2{
   color: black;
   font-weight: 600;
   font-size: 18px;
+}
+
+h1{
+  color: orangered;
+}
+
+h5:hover{
+  background-color: aqua;
 }
